@@ -67,10 +67,8 @@ MSG_TYPE_TO_CPP = {
     'int32': 'int32_t',
     'uint64': 'uint64_t',
     'int64': 'int64_t',
-    'string': 'std::basic_string<char, std::char_traits<char>, ' +
-              'typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>',
-    'wstring': 'std::basic_string<char16_t, std::char_traits<char16_t>, typename ' +
-               'std::allocator_traits<ContainerAllocator>::template rebind_alloc<char16_t>>',
+    'string': 'std::string',
+    'wstring': 'std::u16string',
 }
 
 
